@@ -1,0 +1,77 @@
+body {
+    background-color: lightgray;
+}
+
+.theMusicPlayerDiv {
+    display: none;
+}
+
+#playlist {
+    list-style: none;
+}
+
+#playlist li a {
+    color: white;
+    text-decoration: none;
+}
+
+#playlist li a:hover {
+    font-weight: bold;
+    color: lightseagreen;
+}
+
+#playlist .current-song a {
+    color: blue;
+}
+
+.jumbotron {
+    background-color: black;
+    border-radius: 150px;
+    margin-top: 5%;
+}
+.player {
+    position: absolute;
+}
+
+.player li {
+    padding-bottom: 3%;
+    position: relative;
+}
+
+.playlist_image {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.playlistImage {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+button i {
+    color: white;
+}
+
+.playlist_buttons {
+    opacity: 0.2;
+}
+
+.playlist_buttons:hover {
+    opacity: 1;
+}
+
+.playlist_buttons {
+    position: relative;
+}
+
+.playlist_buttons i {
+    margin: 2.5em;
+    position: absolute;
+}
+
+.parent-player {
+    position: relative;
+}
+

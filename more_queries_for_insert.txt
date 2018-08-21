@@ -1,0 +1,7 @@
+insert into songs (song_url, song_name) values (from input field array)
+
+select song_id from songs where song_name = (values from input field array)
+
+insert into playlist (playlist_name, playlist_url, playlist songs) values (from input field, from input field, implode(result from select from songs))
+
+
